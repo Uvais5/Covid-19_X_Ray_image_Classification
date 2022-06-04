@@ -12,7 +12,7 @@ st.title("Covid-19 cheast X_Ray Classification 🤢")
 uploaded_files = st.file_uploader(label="Choose a X_Ray", type=["png","jpg"])
 predict = "❌Plase Enter the X_Ray image first❌❌❌"
 #Load the model i save  and images to classify 
-model = load_model("2")
+model = load_model("CNN_model.h5")
 
 if uploaded_files is not None:
     show_image = Image.open(uploaded_files)
