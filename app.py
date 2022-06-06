@@ -1,6 +1,5 @@
 import streamlit as st 
-import numpy as np 
-import keras 
+import numpy as np  
 from keras.layers import *
 from keras.models import *
 from keras.preprocessing import image
