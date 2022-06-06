@@ -37,7 +37,7 @@ if st.button("Test The X_Ray"):
         st.markdown(new_prediction, unsafe_allow_html=True)
         image = Image.open('no covid.jpg')
         st.image(image)
-        nor = '<p style="font-family:sans-serif; color:Green; font-size: 42px;">This X_Ray image is Normal</p>'
+        nor = '<p style="font-family:sans-serif; color:black; font-size: 42px;">This X_Ray image is Normal</p>'
         st.markdown(nor,unsafe_allow_html=True)
     else:
         st.write(predict)
