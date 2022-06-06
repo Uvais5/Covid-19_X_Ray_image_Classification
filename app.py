@@ -6,7 +6,7 @@ from keras.preprocessing import image
 from PIL import Image
 import base64
 #stremalit title
-st.title("Covid-19 cheast X_Ray Classification 🤢")
+st.title("Covid-19 cheast X_Ray image Classification 🤢")
 #streamlit uploader function
 uploaded_files = st.file_uploader(label="Choose a X_Ray", type=["png","jpg"])
 predict = "❌Plase Enter the X_Ray image first❌❌❌"
