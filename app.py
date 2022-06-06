@@ -39,7 +39,7 @@ if st.button("Test The X_Ray"):
         st.image(image)
         nor = '<p style="font-family:sans-serif; color:black; font-size: 42px;">This X_Ray image is Normal</p>'
         st.markdown(nor,unsafe_allow_html=True)
-        st.title("This x_ray image is normal")
+        st.title("Founded Normal")
     else:
         st.write(predict)
         st.markdown(new_prediction1, unsafe_allow_html=True)
@@ -47,6 +47,7 @@ if st.button("Test The X_Ray"):
         st.image(image)
         cov = '<p style="font-family:sans-serif; color:Red; font-size: 42px;">In this X_Ray image found a covid-19</p>'
         st.markdown(cov,unsafe_allow_html=True)
+        st.title("Founded Covid-19")
         
 #This is extra feature to resize the streamlit button and all
 k = st.markdown("""
